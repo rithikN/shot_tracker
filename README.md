@@ -39,3 +39,28 @@ Through this project, I aim to deepen my understanding of backend architecture, 
 ## 🚧 Work in Progress
 
 This project is still under development and intended primarily for learning purposes. Contributions or suggestions are welcome!
+
+## Local Deployment
+
+1. **Create a virtual environment:**
+
+   ```bash
+   python -m venv venv
+   ```
+2. **Activate the virtual environment:**
+
+   ```bash
+   venv\Scripts\activate
+   ```
+3. **Install required packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the development server:**
+
+   ```bash
+   python manage.py runserver
+   ```
+
+> The server should now be accessible at http://127.0.0.1:8000/.
